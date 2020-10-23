@@ -1,0 +1,29 @@
+@import 'reset/reset';
+@import 'variables';
+@import 'media';
+@import 'utils';
+@import 'elementary';
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 14px;
+  line-height: 1;
+}
+
+body {
+  background-color: $bg-main;
+  font-family: 'Poppins', sans-serif;
+}

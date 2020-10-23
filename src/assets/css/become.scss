@@ -1,0 +1,108 @@
+@import 'common';
+@import 'form';
+
+.hero {
+  .container + .container {
+    margin-top: 50px;
+  }
+
+
+  &__text {
+    margin: 30px 0;
+    font-weight: 700;
+    line-height: 1.1;
+    color: $text;
+    font-size: 40px;
+  }
+
+  &__arrow {
+    width: 10px;
+  }
+
+  &__img {
+    margin-left: -45px;
+  }
+
+  @media screen and (min-width: $lg) {
+    &__image-become {
+      margin-right: 75px;
+    }
+
+    &__text {
+      font-size: 70px;
+    }
+
+    &__arrow {
+      width: auto;
+    }
+  
+    &__img {
+      margin-left: 0;
+    }
+  }
+
+}
+
+.card {
+  background-color: $white;
+  box-shadow: 0px 2px 4px 0px rgba(#0E567C, 0.16);
+  padding: 30px 24px;
+  text-align: center;
+  height: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+
+  &__icon {
+    padding: 12px;
+    border-radius: 50%;
+    background-color: $bg-blue;
+    margin-bottom: 20px;
+  }
+
+  &__header {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 1.5;
+    color: $text;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #8C97AC;
+  }
+
+  &__container {
+    padding: 10px;
+  }
+
+  @media screen and (min-width: $lg) {
+    padding: 55px 24px 30px;
+    max-width: none;
+
+    &__container {
+      flex: 1;
+      text-align: left;
+    }
+
+  }
+}
+
+
+#WhyBecomeAnInstructor {
+  .section-header {
+    margin-bottom: 50px;
+
+    .h1 {
+      margin-bottom: 20px;
+    }
+  }
+
+
+  @media screen and (min-width: $lg) {
+    .section-header {
+      margin-bottom: 90px;
+    }
+  }
+}
