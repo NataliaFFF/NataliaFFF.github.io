@@ -12,8 +12,7 @@ class ScrollMe {
         e.preventDefault();
         this.scrollTo.scrollIntoView({block: "start", behavior: "smooth"});
       });
-    }
-    );
+    });
   }
 }
 
